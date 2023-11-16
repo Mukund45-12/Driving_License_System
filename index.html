@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driving License Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: "carbglow.png";
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            font-size: 20px;
+            border: 2px solid transparent;
+            /* Set border to transparent */
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+            margin: 10px;
+            background-color: transparent;
+            /* Set background color to transparent */
+            color: #000;
+            /* Button text color */
+        }
+
+        .btn-login {
+            border-color: #008CBA;
+            /* Set border color on normal state */
+        }
+
+        .btn-login:hover {
+            background-color: rgba(0, 140, 186, 1);
+            /* Semi-transparent color on hover */
+            border-color: #008CBA;
+            /* Set border color on hover */
+            color: #fff;
+            /* Text color on hover */
+        }
+
+        .btn-register {
+            border-color: #f44336;
+            /* Set border color on normal state */
+        }
+
+        .btn-register:hover {
+            background-color: rgba(244, 67, 54, 1);
+            /* Semi-transparent color on hover */
+            border-color: #f44336;
+            /* Set border color on hover */
+            color: #fff;
+            /* Text color on hover */
+        }
+    </style>
+</head>
+
+<body background="carbglow.png">
+    <div class="container">
+        <h1>Welcome to BRTA Driving License Management System</h1>
+        <h2> Already created an account? </h2>
+        <br>
+        <a href="login.php" class="btn btn-login button2">Login</a>
+        <br>
+        <br>
+        <h2> Want to apply for Driving License? Apply Here... </h2>
+        <br>
+        <br>
+        <a href="register.php" class="btn btn-register button3">Register</a>
+    </div>
+</body>
+
+</html>
